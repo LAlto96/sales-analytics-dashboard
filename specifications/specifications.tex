@@ -1,0 +1,245 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{longtable}
+
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,
+    urlcolor=blue,
+    }
+
+
+\title{Technical Specification for Sales Dashboard}
+\author{Ludovic}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\subsection{Purpose of the Dashboard}
+The purpose of this dashboard is to showcase the analytical capabilities of the data analyst by providing an interactive and insightful view of the company’s sales performance, product portfolio, and account management. This dashboard aims to help potential clients understand how data-driven insights can drive business decisions and growth.
+
+
+
+\subsection{Target Audience}
+The primary audience for this dashboard includes potential clients, business executives, sales managers, and other stakeholders interested in understanding the company's sales dynamics and performance metrics.
+
+\subsection{Overview of the Data}
+\subsubsection{Source}
+The data used for this dashboard is from a Kaggle dataset titled "CRM + Sales + Opportunities" This dataset contains information about customer interactions, sales activities, and opportunities from a fictional company's CRM (Customer Relationship Management) system. The dataset is designed to help data scientists and analysts understand the sales process, identify trends and patterns, and build predictive models to improve sales performance.
+
+\textbf{Features}:
+\begin{itemize}
+    \item Customer information (demographics, firmographics, etc.)
+    \item Sales activities
+    \item Opportunity data (deal size, stage, probability, etc.)
+    \item Product/service information
+    \item Sales team and performance metrics
+    \item Time-series data (daily/weekly/monthly sales, etc.)
+\end{itemize}
+
+\textbf{Use Cases}:
+\begin{itemize}
+    \item Predicting won/lost opportunities
+    \item Forecasting deal size
+    \item Identifying key drivers of sales performance
+    \item Optimizing sales team performance
+    \item Analyzing customer behavior and preferences
+\end{itemize}
+
+This dataset is perfect for data scientists, analysts, and students looking to practice their skills in:
+\begin{itemize}
+    \item Predictive modeling
+    \item Data visualization
+    \item Sales analytics
+    \item Customer relationship management
+\end{itemize}
+
+Get started: Download the dataset and start exploring! \href{https://www.kaggle.com/datasets/innocentmfa/crm-sales-opportunities}{Link to dataset}
+\subsubsection{Data Integration}
+The dashboard will integrate data from four primary sources:
+\begin{itemize}
+    \item \textbf{Accounts Table}: Contains information about the companies, including industry, revenue, and number of employees.
+    \item \textbf{Products Table}: Lists product details, including product names, series, and suggested retail prices.
+    \item \textbf{Sales Teams Table}: Includes details about the sales agents, their managers, and regional offices.
+    \item \textbf{Sales Pipeline Table}: Tracks the sales pipeline stages, engagement dates, close dates, and deal values.
+\end{itemize}
+
+\section{Data Source Details}
+
+\subsection{Accounts Table}
+\begin{longtable}{|l|l|}
+\hline
+\textbf{Field} & \textbf{Description} \\ \hline
+account & Company name \\ \hline
+sector & Industry \\ \hline
+year\_established & Year Established \\ \hline
+revenue & Annual revenue (in millions of USD) \\ \hline
+employees & Number of employees \\ \hline
+office\_location & Headquarters \\ \hline
+subsidiary\_of & Parent company \\ \hline
+\end{longtable}
+
+\subsection{Products Table}
+\begin{longtable}{|l|l|}
+\hline
+\textbf{Field} & \textbf{Description} \\ \hline
+product & Product name \\ \hline
+series & Product series \\ \hline
+sales\_price & Suggested retail price \\ \hline
+\end{longtable}
+
+\subsection{Sales Teams Table}
+\begin{longtable}{|l|l|}
+\hline
+\textbf{Field} & \textbf{Description} \\ \hline
+sales\_agent & Sales agent \\ \hline
+manager & Respective sales manager \\ \hline
+regional\_office & Regional office \\ \hline
+\end{longtable}
+
+\subsection{Sales Pipeline Table}
+\begin{longtable}{|l|l|}
+\hline
+\textbf{Field} & \textbf{Description} \\ \hline
+opportunity\_id & Unique identifier \\ \hline
+sales\_agent & Sales agent \\ \hline
+product & Product name \\ \hline
+account & Company name \\ \hline
+deal\_stage & Sales pipeline stage (Prospecting > Engaging > Won / Lost) \\ \hline
+engage\_date & Date in which the "Engaging" deal stage was initiated \\ \hline
+close\_date & Date in which the deal was "Won" or "Lost" \\ \hline
+close\_value & Revenue from the deal \\ \hline
+\end{longtable}
+
+\section{Dashboard Requirements}
+
+\subsection{Key Metrics and KPIs}
+\begin{itemize}
+    \item \textbf{Total Revenue}: Aggregated revenue from all closed deals.
+    \item \textbf{Deal Conversion Rate}: Percentage of deals won out of the total deals.
+    \item \textbf{Average Deal Size}: Average revenue per deal.
+    \item \textbf{Sales by Product}: Revenue contribution of each product.
+    \item \textbf{Top Performing Sales Agents}: Ranking of sales agents based on closed deal value.
+    \item \textbf{Sales Pipeline Status}: Current status of deals in the pipeline.
+    \item \textbf{Win Rate}: Percentage of deals won out of total engaged deals.
+    \item \textbf{Average Sales Cycle Length}: Average time taken from initial engagement to closing the deal.
+    \item \textbf{Revenue by Sector}: Revenue generated from each industry sector.
+    \item \textbf{Customer Acquisition Cost (CAC)}: Average cost of acquiring a new customer.
+    \item \textbf{Customer Lifetime Value (CLV)}: Estimated revenue from a customer over their lifetime.
+    \item \textbf{Lead Response Time}: Average time taken to respond to new leads.
+    \item \textbf{Deal Stage Duration}: Average time deals spend in each pipeline stage.
+    \item \textbf{Regional Sales Performance}: Revenue and deal performance by region.
+    \item \textbf{Sales Forecast Accuracy}: Comparison of forecasted versus actual sales.
+\end{itemize}
+
+\subsection{User Stories}
+\begin{itemize}
+    \item \textbf{As a Sales Manager}, I want to see the total revenue generated by the sales team to assess overall performance.
+    \item \textbf{As a Business Executive}, I want to analyze the deal conversion rate to understand the efficiency of the sales process.
+    \item \textbf{As a Potential Client}, I want to see the top-performing products to understand the company’s product strengths.
+    \item \textbf{As a Regional Manager}, I want to monitor the performance of sales agents in my region to provide targeted support and training.
+    \item \textbf{As a CEO}, I want to see the win rate to understand the overall success rate of our sales efforts.
+    \item \textbf{As a Sales Director}, I want to analyze the average sales cycle length to identify bottlenecks in the sales process.
+    \item \textbf{As a Marketing Manager}, I want to understand the customer acquisition cost to evaluate the efficiency of our marketing campaigns.
+    \item \textbf{As a Financial Analyst}, I want to calculate the customer lifetime value to help with financial forecasting and budgeting.
+    \item \textbf{As a Sales Trainer}, I want to review the lead response time to improve training programs for quicker lead engagement.
+    \item \textbf{As a Regional Manager}, I want to compare sales performance across different regions to identify high and low performing areas.
+    \item \textbf{As an Operations Manager}, I want to track deal stage duration to optimize the sales process and reduce delays.
+    \item \textbf{As a Sales Analyst}, I want to assess sales forecast accuracy to improve our sales planning and predictions.
+    \item \textbf{As a Business Development Manager}, I want to see revenue by sector to target high-potential industries for growth.
+\end{itemize}
+
+\section{Technical Specifications}
+
+\subsection{Data Preparation}
+\begin{itemize}
+    \item \textbf{Data Cleaning}: Ensure all tables are free from duplicates and inconsistencies.
+    \item \textbf{Data Integration}: Join tables on relevant keys (e.g., sales\_pipeline.account = accounts.account, sales\_pipeline.product = products.product, sales\_pipeline.sales\_agent = sales\_teams.sales\_agent).
+    \item \textbf{Data Transformation}: Calculate derived metrics such as average deal size, win rate, and customer lifetime value.
+\end{itemize}
+
+\subsection{Data Model}
+\begin{itemize}
+    \item \textbf{Relationships}: Define relationships between tables in Tableau to enable seamless data blending and accurate visualizations.
+    \begin{itemize}
+        \item \textbf{Accounts} → Primary Key: account
+        \item \textbf{Products} → Primary Key: product
+        \item \textbf{Sales Teams} → Primary Key: sales\_agent
+        \item \textbf{Sales Pipeline} → Primary Key: opportunity\_id, Foreign Keys: account, product, sales\_agent
+    \end{itemize}
+\end{itemize}
+
+\subsection{Data Refresh Frequency}
+\begin{itemize}
+    \item \textbf{Daily Refresh}: Schedule a daily refresh to ensure the dashboard reflects the most current data.
+\end{itemize}
+
+\subsection{Security and Access Control}
+\begin{itemize}
+    \item \textbf{User Roles}: Define user roles and permissions in Tableau Server to restrict access based on user roles (e.g., viewer, editor).
+    \item \textbf{Data Masking}: Apply data masking for sensitive information (e.g., revenue, customer details) based on user roles.
+\end{itemize}
+
+\section{Design Specifications}
+
+\subsection{Layout}
+\begin{itemize}
+    \item \textbf{Homepage}: Overview of key metrics (total revenue, deal conversion rate, win rate).
+    \item \textbf{Revenue Dashboard}: Detailed revenue metrics, average deal size, revenue by sector.
+    \item \textbf{Product Performance Dashboard}: Sales by product, top-performing products.
+    \item \textbf{Sales Agent Dashboard}: Performance metrics for sales agents, regional performance.
+    \item \textbf{Pipeline Analysis Dashboard}:
+    \item \textbf{Pipeline Analysis Dashboard}: Pipeline stages, average sales cycle length, deal stage duration.
+\end{itemize}
+
+\subsection{Visualizations}
+\begin{itemize}
+    \item \textbf{Bar Charts}: For revenue by product, top-performing sales agents, and regional sales performance.
+    \item \textbf{Line Charts}: For sales growth rate and sales forecast accuracy.
+    \item \textbf{Pie Charts}: For revenue by sector.
+    \item \textbf{Heatmaps}: For deal stage duration and lead response time.
+    \item \textbf{Gauges}: For win rate and customer acquisition cost.
+\end{itemize}
+
+\subsection{Interactivity}
+\begin{itemize}
+    \item \textbf{Filters}: Date range, product series, sales agent, region, deal stage.
+    \item \textbf{Drill-Down}: From summary metrics to detailed views (e.g., from total revenue to revenue by product or sector).
+    \item \textbf{Tooltips}: Provide additional details on hover for each visualization.
+\end{itemize}
+
+\subsection{Filters and Parameters}
+\begin{itemize}
+    \item \textbf{Date Range Selector}: Allow users to filter data based on custom date ranges.
+    \item \textbf{Dynamic Filters}: Filters based on product, region, sales agent, etc., to allow users to customize their view.
+\end{itemize}
+
+\section{Maintenance and Support}
+
+\subsection{Updating the Dashboard}
+\begin{itemize}
+    \item \textbf{Regular Updates}: Schedule periodic updates based on new data availability.
+    \item \textbf{Version Control}: Maintain version control for dashboard updates and changes.
+\end{itemize}
+
+\subsection{Handling Data Changes}
+\begin{itemize}
+    \item \textbf{Change Management}: Implement a process to handle changes in data sources or structure.
+\end{itemize}
+
+\subsection{User Training}
+\begin{itemize}
+    \item \textbf{Training Sessions}: Conduct training sessions for users to understand how to use the dashboard.
+    \item \textbf{Documentation}: Provide user manuals and documentation for reference.
+\end{itemize}
+
+\end{document}
