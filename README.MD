@@ -62,7 +62,7 @@ This dataset is perfect for data scientists, analysts, and students looking to p
 [The dataset is available here](https://www.kaggle.com/datasets/innocentmfa/crm-sales-opportunities)
 
 ### Exploratory Data Analysis
-[EDA is available in thy Jupyter Notebook file](https://github.com/LAlto96/sales-analytics-dashboard/blob/main/eda.ipynb)
+[EDA is available in this Jupyter Notebook file](https://github.com/LAlto96/sales-analytics-dashboard/blob/main/eda.ipynb)
 
 ## Dashboard Features
 [Dashboard features are explained here](https://github.com/LAlto96/sales-analytics-dashboard/blob/main/features/features.md)
