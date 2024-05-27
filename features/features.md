@@ -176,7 +176,7 @@ specific dashboard:
 
 # Homepage Dashboard
 
-![Homepage](resources/swappy-20240527_141415.png){width="80%"}
+![Homepage](resources/swappy-20240527_141415.png)
 
 The Homepage provides a comprehensive overview of the company's revenue
 performance. It includes key metrics and visualizations that help in
@@ -215,10 +215,10 @@ to filter the data across all visualizations on the Homepage, allowing
 for a more interactive and detailed analysis.
 
 ![Pie Chart applying a filter on Regional West
-office.](resources/swappy-20240527_141440.png){width="80%"}
+office.](resources/swappy-20240527_141440.png)
 
 ![Bar Chart applying a filter on GTXPro and GTXPlus Pro
-products.](resources/swappy-20240527_141503.png){width="80%"}
+products.](resources/swappy-20240527_141503.png)
 
 ## Interactive Navigation
 
@@ -227,14 +227,12 @@ which allow users to switch between different views and dashboards
 easily.
 
 ![Interactive Navigation
-Icons](resources/swappy-20240527_141526.png){#fig:navigation_icons
-width="80%"}
+Icons](resources/swappy-20240527_141526.png)
 
 # Revenue Dashboard
 
 ![Overview of the Revenue
-Dashboard](resources/swappy-20240527_152429.png){#fig:revenue_dashboard_overview
-width="80%"}
+Dashboard](resources/swappy-20240527_152429.png)
 
 The Revenue Dashboard provides a comprehensive overview of the company's
 revenue performance. It includes key metrics and visualizations that
@@ -279,22 +277,18 @@ Dashboard, allowing for a more interactive and detailed analysis.There
 is also a Date Range Filter
 
 ![Bar Chart for Revenue by
-Sector](resources/swappy-20240527_152442.png){#fig:revenue_by_sector_bar_chart
-width="80%"}
+Sector](resources/swappy-20240527_152442.png)
 
 ![Line Chart for Monthly Revenue
-Trends](resources/swappy-20240527_152507.png){#fig:monthly_revenue_trends_line_chart
-width="80%"}
+Trends](resources/swappy-20240527_152507.png)
 
 ![Date Range
-Filter](resources/swappy-20240527_152550.png){#fig:date_range_filter
-width="80%"}
+Filter](resources/swappy-20240527_152550.png)}
 
 # Product Performance Dashboard
 
 ![Overview of the Product Performance
-Dashboard](resources/swappy-20240527_160325.png){#fig:product_performance_dashboard_overview
-width="80%"}
+Dashboard](resources/swappy-20240527_160325.png)
 
 The Product Performance Dashboard provides detailed insights into the
 sales performance of different products. It includes key metrics and
@@ -337,22 +331,18 @@ allowing for a more interactive and detailed analysis. There is also a
 Regional Office Filter.
 
 ![Bar Chart for Top Selling
-Product](resources/swappy-20240527_160008.png){#fig:top_selling_product_bar_chart
-width="80%"}
+Product](resources/swappy-20240527_160008.png)
 
 ![Bar Chart for Revenue by
-Product](resources/swappy-20240527_160042.png){#fig:revenue_by_product_bar_chart
-width="80%"}
+Product](resources/swappy-20240527_160042.png)
 
 ![Treemap for Product by Regional
-Office](resources/swappy-20240527_160111.png){#fig:product_by_regional_office_treemap
-width="80%"}
+Office](resources/swappy-20240527_160111.png)
 
 # Sales Team Dashboard
 
 ![Overview of the Sales Team
-Dashboard](resources/swappy-20240527_160845.png){#fig:sales_team_dashboard_overview
-width="80%"}
+Dashboard](resources/swappy-20240527_160845.png)
 
 The Sales Team Dashboard provides detailed insights into the performance
 of individual sales agents and teams. It includes key metrics and
@@ -400,18 +390,15 @@ dashboard, allowing for a more interactive and detailed analysis. There
 are also filters for different teams and managers.
 
 ![Treemap applying a filter on sales agent
-performance.](resources/swappy-20240527_160904.png){#fig:sales_agent_treemap_filter
-width="80%"}
+performance.](resources/swappy-20240527_160904.png)
 
 ![Bar Chart applying a filter on team
-performance.](resources/swappy-20240527_160924.png){#fig:team_performance_bar_chart_filter
-width="80%"}
+performance.](resources/swappy-20240527_160924.png)
 
 # Pipeline Analysis Dashboard
 
 ![Overview of the Pipeline Analysis
-Dashboard](resources/swappy-20240527_170251.png){#fig:pipeline_analysis_dashboard_overview
-width="80%"}
+Dashboard](resources/swappy-20240527_170251.png)
 
 The Pipeline Analysis Dashboard provides detailed insights into the
 sales pipeline stages and performance. It includes key metrics and
