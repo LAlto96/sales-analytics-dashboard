@@ -1,10 +1,3 @@
----
-author:
-- Ludovic Lafon
-date: 1980-01-01
-title: Sales Dashboard Documentation
----
-
 # Introduction
 
 ## Purpose of the Document
@@ -36,7 +29,7 @@ which is available on Kaggle. The dataset includes information about
 customer interactions, sales activities, and opportunities. The data was
 cleaned, transformed, and integrated using Pandas in a separate Python
 notebook file, which is [available on
-GitHub]([https://github.com/LAlto96/sales-analytics-dashboard]).
+GitHub](https://github.com/LAlto96/sales-analytics-dashboard).
 
 ### About the Dataset
 
