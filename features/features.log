@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/nixos.org) (preloaded format=pdflatex 1980.1.1)  27 MAY 2024 12:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/nixos.org) (preloaded format=pdflatex 1980.1.1)  27 MAY 2024 17:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -246,28 +246,53 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 
 (/nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-texmfdist/tex/lat
 ex/lipsum/lipsum.ltd.tex))
-Package hyperref Info: Option `colorlinks' set `true' on input line 11.
+(/nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-texmfdist/tex/lat
+ex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-texmfdist/tex/lat
+ex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-texmfdist/tex/lat
+ex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-texmfdist/tex/lat
+ex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-texmfdist/tex/lat
+ex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen153
+\Gin@req@width=\dimen154
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 12.
  (./features.aux)
 \openout1 = `features.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 (/nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-texmfdist/tex/lat
 ex/graphics/color.sty
@@ -280,27 +305,8 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
 
 (/nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-texmfdist/tex/lat
-ex/graphics-def/pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-
-(/nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-texmfdist/tex/con
-text/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count281
-\scratchdimen=\dimen153
-\scratchbox=\box52
-\nofMPsegments=\count282
-\nofMParguments=\count283
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count284
-\MPscratchDim=\dimen154
-\MPnumerator=\count285
-\makeMPintoPDFobject=\count286
-\everyMPtoPDFconversion=\toks22
-))
-(/nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-texmfdist/tex/lat
 ex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 18.
+Package hyperref Info: Link coloring ON on input line 19.
  (./features.out) (./features.out)
 \@outlinefile=\write3
 \openout3 = `features.out'.
@@ -340,13 +346,40 @@ Package hyperref Info: Link coloring ON on input line 18.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+
+(/nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-texmfdist/tex/con
+text/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count281
+\scratchdimen=\dimen155
+\scratchbox=\box52
+\nofMPsegments=\count282
+\nofMParguments=\count283
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count284
+\MPscratchDim=\dimen156
+\MPnumerator=\count285
+\makeMPintoPDFobject=\count286
+\everyMPtoPDFconversion=\toks22
+)
+(/nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-texmfdist/tex/lat
+ex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-texmfdist/tex/lat
+ex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 21.
+(Font)              <12> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 21.
+(Font)              <8> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 21.
-(./features.toc
+(Font)              <6> on input line 22.
+ (./features.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -359,51 +392,188 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/nix/store/vd70007fx3fj01rf0mpnnqqsrp7i0qqp-texlive-2023-env/share/texmf-var/f
 onts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 39--44
+Underfull \hbox (badness 10000) in paragraph at lines 40--45
 
  []
 
-[2{/nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-texmfdist/fonts
-/enc/dvips/cm-super/cm-super-ts1.enc}] [3] [4] [5] (./features.aux)
+[2
+
+{/nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-texmfdist/fonts/e
+nc/dvips/cm-super/cm-super-ts1.enc}] [3] [4]
+<resources/swappy-20240527_141415.png, id=170, 1196.47pt x 897.3525pt>
+File: resources/swappy-20240527_141415.png Graphic file (type png)
+<use resources/swappy-20240527_141415.png>
+Package pdftex.def Info: resources/swappy-20240527_141415.png  used on input li
+ne 129.
+(pdftex.def)             Requested size: 362.37569pt x 271.78201pt.
+<resources/swappy-20240527_141440.png, id=171, 1196.47pt x 907.39pt>
+File: resources/swappy-20240527_141440.png Graphic file (type png)
+<use resources/swappy-20240527_141440.png>
+Package pdftex.def Info: resources/swappy-20240527_141440.png  used on input li
+ne 154.
+(pdftex.def)             Requested size: 362.37569pt x 274.82208pt.
+<resources/swappy-20240527_141503.png, id=172, 1200.485pt x 932.48375pt>
+File: resources/swappy-20240527_141503.png Graphic file (type png)
+<use resources/swappy-20240527_141503.png>
+Package pdftex.def Info: resources/swappy-20240527_141503.png  used on input li
+ne 159.
+(pdftex.def)             Requested size: 362.37569pt x 281.46893pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<resources/swappy-20240527_141526.png, id=173, 1197.47375pt x 909.3975pt>
+File: resources/swappy-20240527_141526.png Graphic file (type png)
+<use resources/swappy-20240527_141526.png>
+Package pdftex.def Info: resources/swappy-20240527_141526.png  used on input li
+ne 168.
+(pdftex.def)             Requested size: 362.37569pt x 275.1942pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5
+
+ <./resources/swappy-20240527_141415.png>] [6 <./resources/swappy-20240527_1414
+40.png> <./resources/swappy-20240527_141503.png>] [7 <./resources/swappy-202405
+27_141526.png>]
+<resources/swappy-20240527_152429.png, id=192, 1200.485pt x 897.3525pt>
+File: resources/swappy-20240527_152429.png Graphic file (type png)
+<use resources/swappy-20240527_152429.png>
+Package pdftex.def Info: resources/swappy-20240527_152429.png  used on input li
+ne 179.
+(pdftex.def)             Requested size: 362.37569pt x 270.86461pt.
+<resources/swappy-20240527_152442.png, id=193, 1195.46625pt x 902.37125pt>
+File: resources/swappy-20240527_152442.png Graphic file (type png)
+<use resources/swappy-20240527_152442.png>
+Package pdftex.def Info: resources/swappy-20240527_152442.png  used on input li
+ne 208.
+(pdftex.def)             Requested size: 362.37569pt x 273.53612pt.
+ [8
+
+ <./resources/swappy-20240527_152429.png>]
+<resources/swappy-20240527_152507.png, id=199, 1191.45125pt x 901.3675pt>
+File: resources/swappy-20240527_152507.png Graphic file (type png)
+<use resources/swappy-20240527_152507.png>
+Package pdftex.def Info: resources/swappy-20240527_152507.png  used on input li
+ne 215.
+(pdftex.def)             Requested size: 362.37569pt x 274.13959pt.
+<resources/swappy-20240527_152550.png, id=200, 1198.4775pt x 899.36pt>
+File: resources/swappy-20240527_152550.png Graphic file (type png)
+<use resources/swappy-20240527_152550.png>
+Package pdftex.def Info: resources/swappy-20240527_152550.png  used on input li
+ne 222.
+(pdftex.def)             Requested size: 362.37569pt x 271.92343pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9 <./resources/swappy-20240527_152442.png> <./resources/swappy-20240527_152507
+.png>] [10 <./resources/swappy-20240527_152550.png>]
+<resources/swappy-20240527_160325.png, id=212, 1198.4775pt x 894.34125pt>
+File: resources/swappy-20240527_160325.png Graphic file (type png)
+<use resources/swappy-20240527_160325.png>
+Package pdftex.def Info: resources/swappy-20240527_160325.png  used on input li
+ne 232.
+(pdftex.def)             Requested size: 362.37569pt x 270.406pt.
+<resources/swappy-20240527_160008.png, id=213, 1202.4925pt x 898.35625pt>
+File: resources/swappy-20240527_160008.png Graphic file (type png)
+<use resources/swappy-20240527_160008.png>
+Package pdftex.def Info: resources/swappy-20240527_160008.png  used on input li
+ne 260.
+(pdftex.def)             Requested size: 362.37569pt x 270.71524pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<resources/swappy-20240527_160042.png, id=214, 1201.48875pt x 903.375pt>
+File: resources/swappy-20240527_160042.png Graphic file (type png)
+<use resources/swappy-20240527_160042.png>
+Package pdftex.def Info: resources/swappy-20240527_160042.png  used on input li
+ne 267.
+(pdftex.def)             Requested size: 362.37569pt x 272.46194pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<resources/swappy-20240527_160111.png, id=215, 1202.4925pt x 899.36pt>
+File: resources/swappy-20240527_160111.png Graphic file (type png)
+<use resources/swappy-20240527_160111.png>
+Package pdftex.def Info: resources/swappy-20240527_160111.png  used on input li
+ne 274.
+(pdftex.def)             Requested size: 362.37569pt x 271.01772pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11
+
+ <./resources/swappy-20240527_160325.png>] [12 <./resources/swappy-20240527_160
+008.png> <./resources/swappy-20240527_160042.png>] [13 <./resources/swappy-2024
+0527_160111.png>]
+<resources/swappy-20240527_160845.png, id=233, 1201.48875pt x 895.345pt>
+File: resources/swappy-20240527_160845.png Graphic file (type png)
+<use resources/swappy-20240527_160845.png>
+Package pdftex.def Info: resources/swappy-20240527_160845.png  used on input li
+ne 284.
+(pdftex.def)             Requested size: 362.37569pt x 270.04007pt.
+ [14
+
+ <./resources/swappy-20240527_160845.png>]
+<resources/swappy-20240527_160904.png, id=239, 1202.4925pt x 908.39375pt>
+File: resources/swappy-20240527_160904.png Graphic file (type png)
+<use resources/swappy-20240527_160904.png>
+Package pdftex.def Info: resources/swappy-20240527_160904.png  used on input li
+ne 314.
+(pdftex.def)             Requested size: 362.37569pt x 273.73999pt.
+<resources/swappy-20240527_160924.png, id=240, 1188.44pt x 905.3825pt>
+File: resources/swappy-20240527_160924.png Graphic file (type png)
+<use resources/swappy-20240527_160924.png>
+Package pdftex.def Info: resources/swappy-20240527_160924.png  used on input li
+ne 321.
+(pdftex.def)             Requested size: 362.37569pt x 276.06528pt.
+ [15 <./resources/swappy-20240527_160904.png> <./resources/swappy-20240527_1609
+24.png>]
+<resources/swappy-20240527_170251.png, id=247, 1203.49625pt x 904.37875pt>
+File: resources/swappy-20240527_170251.png Graphic file (type png)
+<use resources/swappy-20240527_170251.png>
+Package pdftex.def Info: resources/swappy-20240527_170251.png  used on input li
+ne 332.
+(pdftex.def)             Requested size: 362.37569pt x 272.3093pt.
+
+[16
+
+ <./resources/swappy-20240527_170251.png>] (./features.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-Package rerunfilecheck Warning: File `features.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `features.out':
-(rerunfilecheck)             Before: 68E47BF294C9C939E5B52A3E96BF2A50;2528
-(rerunfilecheck)             After:  19AD370FE07A666662EABB48E75105B5;2352.
+Package rerunfilecheck Info: File `features.out' has not changed.
+(rerunfilecheck)             Checksum: A944F81FC858D06DF7985F56E27D838A;4256.
  ) 
 Here is how much of TeX's memory you used:
- 9041 strings out of 474116
- 148318 string characters out of 5720541
- 1936187 words of memory out of 5000000
- 31296 multiletter control sequences out of 15000+600000
+ 9560 strings out of 474116
+ 160635 string characters out of 5720541
+ 1943187 words of memory out of 5000000
+ 31756 multiletter control sequences out of 15000+600000
  562659 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,6n,93p,424b,499s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{subsubsection.1.5.2} has been referenced but does n
-ot exist, replaced by a fixed one
-
-</nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-texmfdist/fonts/t
-ype1/public/amsfonts/cm/cmbx10.pfb></nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl
--texlive-2023-env-texmfdist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></nix/sto
-re/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-texmfdist/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb></nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2
-023-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr12.pfb></nix/store/nn50xms4
-4xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-texmfdist/fonts/type1/public/amsfonts
-/cm/cmr17.pfb></nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-tex
-mfdist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on features.pdf (5 pages, 93073 bytes).
+ 79i,7n,93p,424b,499s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-texmfdist/fonts
+/type1/public/amsfonts/cm/cmbx10.pfb></nix/store/nn50xms44xc7fhb1cm6vicw77hpppx
+zl-texlive-2023-env-texmfdist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></nix/s
+tore/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-texmfdist/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb></nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive
+-2023-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr12.pfb></nix/store/nn50xm
+s44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-texmfdist/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb></nix/store/nn50xms44xc7fhb1cm6vicw77hpppxzl-texlive-2023-env-t
+exmfdist/fonts/type1/public/amsfonts/cm/cmr7.pfb></nix/store/nn50xms44xc7fhb1cm
+6vicw77hpppxzl-texlive-2023-env-texmfdist/fonts/type1/public/cm-super/sfrm1000.
+pfb>
+Output written on features.pdf (16 pages, 1522982 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 302 PDF objects out of 1000 (max. 8388607)
+ 251 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 305 words of extra memory for PDF output out of 10000 (max. 10000000)
 

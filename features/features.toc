@@ -8,7 +8,21 @@
 \contentsline {subsubsection}{\numberline {1.5.1}Dashboard Requirements}{3}{subsubsection.1.5.1}%
 \contentsline {subsection}{\numberline {1.6}Structure of the Document}{4}{subsection.1.6}%
 \contentsline {section}{\numberline {2}Homepage Dashboard}{5}{section.2}%
-\contentsline {section}{\numberline {3}Revenue Dashboard}{5}{section.3}%
-\contentsline {section}{\numberline {4}Product Performance Dashboard}{5}{section.4}%
-\contentsline {section}{\numberline {5}Sales Team Dashboard}{5}{section.5}%
-\contentsline {section}{\numberline {6}Pipeline Analysis Dashboard}{5}{section.6}%
+\contentsline {subsection}{\numberline {2.1}Key Metrics}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Visualizations}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Interactive Navigation}{5}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Revenue Dashboard}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Key Metrics}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Visualizations}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Interactive Navigation}{9}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Product Performance Dashboard}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Key Metrics}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Visualizations}{11}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Interactive Navigation}{11}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Sales Team Dashboard}{14}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Key Metrics}{14}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Visualizations}{14}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Interactive Navigation}{15}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Pipeline Analysis Dashboard}{16}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Key Metrics}{16}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Visualizations}{16}{subsection.6.2}%
