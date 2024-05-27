@@ -67,7 +67,7 @@ This dataset is perfect for data scientists, analysts, and students looking to p
 ## Dashboard Features
 [Dashboard features are explained here](https://github.com/LAlto96/sales-analytics-dashboard/blob/main/features/features.md)
 
-## Installation
+## Dashboard
 [Dashboard is Available here ](https://public.tableau.com/views/SalesPipelineVisualizer/PipelineAnalysisDashboard?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
 ## License
