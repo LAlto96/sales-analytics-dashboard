@@ -1,4 +1,3 @@
-Sure! Here is a `README.md` file for your GitHub repository:
 # CRM Sales Dashboard
 
 ## Description
@@ -60,20 +59,16 @@ This dataset is perfect for data scientists, analysts, and students looking to p
 - Sales analytics
 - Customer relationship management
 
-Get started: [Download the dataset](https://www.kaggle.com/datasets/innocentmfa/crm-sales-opportunities)
+[The dataset is available here](https://www.kaggle.com/datasets/innocentmfa/crm-sales-opportunities)
+
+## Dashboard Features
+[Dashboard features are explained here](https://github.com/LAlto96/sales-analytics-dashboard/blob/main/features/features.md)
 
 ## Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/crm-sales-dashboard.git
-   ```
-2. Open the Tableau workbook file (`.twb`) to explore the dashboard.
+[Dashboard is Available here ](https://public.tableau.com/views/SalesPipelineVisualizer/PipelineAnalysisDashboard?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 For any questions or feedback, [please contact me](https://www.upwork.com/freelancers/~01a5d1df0ae7e62b4d?mp_source=share).
-
-
-Replace `yourusername` with your GitHub username and `[Your Name]` and `[your.email@example.com]` with your actual name and email address. This `README.md` provides an overview of your project, the dataset, features, installation instructions, and licensing information.
